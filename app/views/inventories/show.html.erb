@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @inventory.id %>
+</p>
+
+<p>
+  <b>Product:</b>
+  <%= @inventory.product_id %>
+</p>
+
+<p>
+  <b>Previous balance:</b>
+  <%= @inventory.previous_balance %>
+</p>
+
+<p>
+  <b>New balance:</b>
+  <%= @inventory.new_balance %>
+</p>
+
+<p>
+  <b>Future balance:</b>
+  <%= @inventory.future_balance %>
+</p>
+
+
+<%= link_to 'Edit', edit_inventory_path(@inventory) %> |
+<%= link_to 'Back', inventories_path %>
