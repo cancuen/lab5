@@ -5,7 +5,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :title
       t.text :descripcion
       t.string :image_url
-      t.double :price
+      t.decimal :price
       t.integer :projection
       t.integer :amount
 
